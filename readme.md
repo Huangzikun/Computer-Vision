@@ -1,5 +1,5 @@
 # Image Processing and Computer Vision
-## Week 2
+## Week 1
 ### function
 * [imwrite](https://ww2.mathworks.cn/help/releases/R2022b/matlab/ref/imwrite.html?lang=en)
 * [imbinarize](https://ww2.mathworks.cn/help/releases/R2022b/images/ref/imbinarize.html?lang=en)
