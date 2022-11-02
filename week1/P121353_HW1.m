@@ -40,7 +40,6 @@ HistJpeg = histeq(jpegImage);
 %imshow(histJpeg - jpegImage);
 imshowpair(HistJpeg, jpegImage, "diff");
 
-
 histPng = histeq(pngImage);
 %imshow(histPng - pngImage);
 
