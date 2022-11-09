@@ -1,4 +1,0 @@
-im = double(imread('circles.png'));
-im_noise = imnoise(im,'salt & pepper',0.02);
-
-SE = [1 1 1; 1 1 1];
