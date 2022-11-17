@@ -25,3 +25,15 @@ Note: The resulting values could have either positive or negative values. Rescal
 1. Morphological noise removal (or morphological filtering)
 Generate an image (i.e. circles.png) with salt & pepper noise using the Matlab code
 Using what you have learned so far, remove the salt & pepper noise from the image. Note: for salt & pepper noise, some of the black pixels are white and some of the white pixels are black.
+
+## Week 3
+### function
+* [median](https://ww2.mathworks.cn/help/releases/R2022b/matlab/ref/median.html?s_tid=doc_ta)
+* [sum](https://ww2.mathworks.cn/help/releases/R2022b/matlab/ref/sum.html?s_tid=doc_ta)
+* [imsharpen](https://ww2.mathworks.cn/help/releases/R2022b/images/ref/imsharpen.html?searchHighlight=imsharpen&s_tid=doc_srchtitle)
+### homework 
+[P121353_HW3.m](week3/P121353_HW3.m)
+1. Experiment with median filtering (non-linear)
+a. without using medfilt2
+b. using medfilt2
+2. Can unsharp masking be used to reverse the effects of blurring? Apply an unsharp masking filter after a 3x3 averaging filter and describe the result.

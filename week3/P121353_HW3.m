@@ -55,12 +55,14 @@ extandGrayscale(:,1) = [];
 extandGrayscale(:,y+1) = [];
 
 extandUint8 = uint8(extandGrayscale);
+
 %unsharp masking
 % 3*3 avg filter and unsharp masking filter blur black pepper pixels
 % If there is no black pepper pixel, the image will be blurred after the avg filter
 % using unsharp masking img more clear 
 filterImg = imsharpen(extandUint8);
 imshowpair(extandUint8, filterImg, 'montage')
+
+% If there is no black pepper, adding and subtracting will make the picture clearer
 %imshowpair(img, img + (img - filterImg), 'montage');
-%
 %imshowpair(img, img + (img - extandUint8), 'montage');
