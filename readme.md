@@ -31,6 +31,8 @@ Using what you have learned so far, remove the salt & pepper noise from the imag
 * [median](https://ww2.mathworks.cn/help/releases/R2022b/matlab/ref/median.html?s_tid=doc_ta)
 * [sum](https://ww2.mathworks.cn/help/releases/R2022b/matlab/ref/sum.html?s_tid=doc_ta)
 * [imsharpen](https://ww2.mathworks.cn/help/releases/R2022b/images/ref/imsharpen.html?searchHighlight=imsharpen&s_tid=doc_srchtitle)
+* [filter2](https://ww2.mathworks.cn/help/releases/R2022b/matlab/ref/filter2.html?searchHighlight=filter2&s_tid=doc_srchtitle)
+* [fspecial](https://ww2.mathworks.cn/help/releases/R2022b/images/ref/fspecial.html?lang=en)
 ### homework 
 [P121353_HW3.m](week3/P121353_HW3.m)
 1. Experiment with median filtering (non-linear)
